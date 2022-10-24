@@ -1,0 +1,92 @@
+*{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+  }
+  header{
+    margin:2rem 4rem;
+  }
+  .logo{
+    display:inline-block;
+    text-align: center;
+  }
+  header div{
+    margin:0;
+  }
+  .logo h1{
+    font-size:2rem;
+    display: inline;
+    color:rgb(65, 14, 14);
+    font-weight:700;
+   
+  }
+  .logo img{
+    width:40px;
+  }
+  nav{
+    float:right;
+  }
+  nav li{
+    padding:7px 20px;
+    display:inline-block; 
+  }
+  nav li a{
+    font-size:1.3rem;
+    color:grey;
+    position:relative;
+  }
+  nav li a::after{
+    content:" ";
+    background-color:rgb(60, 56, 56);
+    position:absolute;
+    width:100%;
+    height:4px;
+    left:0;
+    top:100%;
+    transform:scale(0,1);
+    transform-origin: 0 100%;
+    transition:all 0.5s ease;
+  }
+  nav li a:hover::after{
+    transform:scale(1,1);
+  }
+  nav li:last-child{
+    padding-right:0;
+  }
+  .name h2{
+    font-size:2.1rem;
+    color:#000;
+    font-weight:600;
+  }
+  main{
+    margin-top:80px;
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(253, 253, 253);
+  }
+  div{
+    margin:20px;
+  }
+.services li{
+    list-style-type: disc;
+}
+.hobby li{
+    list-style-type: disc;
+}
+figcaption h4{
+    font-size:1.2rem;
+}
+figcaption p:nth-child(2){
+    color:blue;
+    font-style: italic;
+}
+footer{
+    height:100px;
+    background-color: #000;
+    text-align: center;
+}
+footer .logo h1{
+    color:white;
+}
