@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    width:38%;
+    height:300px;
+    margin:150px auto;
+    background-color: rgb(223, 222, 222);
+    text-align: center;
+    font-family: 'Alkalami', serif;
+    padding:70px 0;
+}
+i{
+    font-size:3rem;
+    color:green;
+}
+.continue{
+    padding:10px;
+    border-radius:10px;
+    font-size:1rem;
+    background-color: green;
+    border:none;
+    margin-top:15px;
+    opacity:100%;
+    transition:opacity .7s ease-in-out;
+}
+.continue a{
+    text-decoration: none;
+    color:#fff;
+}
+.continue:hover{
+    opacity:70%;
+}
